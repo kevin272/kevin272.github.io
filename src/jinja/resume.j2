@@ -78,23 +78,22 @@
   <!-- SKILLS -->
   {% if resume.SKILLS.enabled %}
   <section class="skill">
-
-  <h3 class="h3 skills-title">{{ resume.SKILLS.label }}</h3>
-
-  <ul class="skills-list content-card">
-
-    {% for item in resume.SKILLS["items"] %}
+    <h3 class="h3 skills-title">{{resume.SKILLS.label}}</h3>
+    <ul class="skills-list content-card">
+      {% for item in resume.SKILLS["items"] %}
       <li class="skills-item">
-        <span class="skill-name">{{ item.skill }}</span>
+        <div class="title-wrapper">
+          <h5 class="h5">{{item.skill}}</h5>
+          {% if resume.SKILLS.display_percentage_values %}
+          <data value="{{item.proficiency[:-1]}}">{{item.proficiency}}</data>
+          {% endif %}
+        </div>
         {% if item.proficiency %}
           <span class="skill-level"> – {{ item.proficiency }}</span>
         {% endif %}
       </li>
-    {% endfor %}
-
-  </ul>
-
-</section>
-
+      {% endfor %}
+    </ul>
+  </section>
   {% endif %}
 </article>
