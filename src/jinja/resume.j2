@@ -82,14 +82,14 @@
     <ul class="skills-list content-card">
       {% for item in resume.SKILLS["items"] %}
       <li class="skills-item">
-        <div class="title-wrapper" font-color="white">
+        <div class="title-wrapper">
           <h5 class="h5">{{item.skill}}</h5>
           {% if resume.SKILLS.display_percentage_values %}
           <data value="{{item.proficiency[:-1]}}">{{item.proficiency}}</data>
           {% endif %}
         </div>
         {% if item.proficiency %}
-          <span class="skill-level"> – {{ item.proficiency }}</span>
+      <span class="skill-level" style="color: white;"> – {{ item.proficiency }}</span>
         {% endif %}
       </li>
       {% endfor %}
