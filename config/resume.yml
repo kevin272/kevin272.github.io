@@ -1,59 +1,70 @@
 HEADER:
   label: "Resume"
-
 EDUCATION:
   enabled: true
   label: "Education"
   items:
-    - period: "2002 — 2004"
-      institution: "High School of Art and Design"
-      description: "Graduated with honors, focusing on visual arts and design principles. Participated in multiple student exhibitions, honing skills in drawing, painting, and graphic design."
-    - period: "2005 — 2007"
-      institution: "Brooklyn Technical High School"
-      description: "Completed coursework in computer science and digital media, with a particular focus on web development and programming. Collaborated on projects involving coding and design integration."
-    - period: "2006 — 2007"
-      institution: "New York Academy of Art"
-      description: "Studied fine arts with a focus on sculpture and advanced painting techniques. Took part in workshops and intensive studio sessions, receiving feedback from industry professionals."
-    - period: "2007 — 2008"
-      institution: "University School of the Arts"
-      description: "Pursued a Bachelor of Fine Arts degree, specializing in interactive media and digital design. Graduated with a portfolio of projects blending traditional art forms with emerging technologies."
-
+    - period: "2020 - present"
+      institution: "Kantipur Engineering College"
+      [cite_start]description: "Bachelors in Computer Engineering "
+    - period: "2019"
+      institution: "Prativa H.S. School"
+      [cite_start]description: "Higher Secondary Education "
+    - period: "2017"
+      institution: "Gandaki Boarding School"
+      [cite_start]description: "Secondary Level Education "
 EXPERIENCE:
   enabled: true
-  label: "Experience"
+  label: "Projects"
   items:
-    - period: "2010 — 2013"
-      position: "Web Designer"
-      description: "Worked on the design and development of websites for small to medium-sized businesses. Collaborated closely with developers to ensure responsive and user-friendly designs. Led the redesign of the company’s website, improving user engagement by 25%."
-    - period: "2013 — 2015"
-      position: "Art Director"
-      description: "Led a team of designers to create visually stunning campaigns for major clients in the advertising industry. Managed the creative direction of print and digital media, ensuring consistent branding and high-quality designs. Oversaw the production of advertisements that won industry awards."
-    - period: "2015 — Present"
-      position: "Creative Director"
-      description: "Direct and oversee the creative process for a range of projects, from concept to execution. Lead cross-functional teams to create innovative design solutions for branding, marketing, and digital experiences. Recently led the redesign of a global brand’s digital presence, increasing online sales by 40%."
-
+    - period: "2025 - present"
+      position: "SajhaBiz, (MERN Stack)"
+      description: "Full stack project that allows users to donate to campaigns opened for local businesses. Features JWT-based authentication and Google Maps API integration. Includes an admin panel for campaign and user management that utilizes CRUD operations, donation tracking, user dashboards, and campaign and user CRUD. "
+    - period: "2024 - present"
+      position: "Javascript Simulation Projects"
+      [cite_start]description: "Simulation coding challenges from TheCoding Train, including Sand Simulation, Live Video feed to ASCII Art, 7Segment Display, and 2D Raycasting. "
+    - period: "2024"
+      position: "Movie Search App, (Reactjs, TailwindCSS)"
+      [cite_start]description: "Features a simple search tool for movie details and shows data of the searched movie by requesting the MovieDB API. "
+    - period: "2024"
+      position: "Debug Adventure, KEC Lite Project, (C#, Unity2D)"
+      description: "2D platform game that combines coding challenges with interactive gameplay. Players advance through levels by fixing programming mistakes, creating a mix of gaming and problem-solving. "
+    - period: "2024"
+      position: "Nepali-English Language Translator, Final year project, (Transformers, FFMPEG, PyTorch, Hugging Face, MMS, M2M100)"
+      description: "Developed a Nepali-English translation system using X-Transformer and M2M100 models. Achieved significant improvements in translation and speech recognition quality through the combination of Wave2Vec-based MMS for speech recognition and the transformer-based M2M100 model. Contributed to the Nepali language processing domain by creating a high-quality parallel dataset from diverse origins. "
+    - period: "2024"
+      position: "Responsive Google Forms"
+      description: "A simple HTML form styled with CSS for user data collection, processed server-side with PHP. Includes client-side validation and interactivity via JavaScript, and stores data in a MySQL database. "
+    - period: "2023"
+      position: "Image Recognition Bot, (PyGUI, Python)"
+      [cite_start]description: "Simple Bot that utilizes image recognition to perform minor tasks like playing pianotiles & simulating clicks on prop's appearance. "
+    - period: "2023"
+      position: "Collaborative Code Editor, 3rd year project, (HTML, CSS, JS)"
+      description: "Real-time collaborative code editor that utilizes Logoot algorithm. Features syntax highlighting and realtime chat. "
+    - period: "2022"
+      position: "Credit Card validator, 3rd semester project, (C++)"
+      [cite_start]description: "A straightforward credit card validation application that employs Luhn's algorithm. "
+    - period: "2016"
+      position: "Qbasic Pokemon Game, Group School Project"
+      [cite_start]description: "Prototype turn based action game generated entirely in Qbasic. "
 LANGUAGES:
-  enabled: true
+  enabled: false
   display_progress_bars: true
   display_percentage_values: true
-  label: "Languages"
-  items:
-    - language: "Inglés"
-      proficiency: "60%"
-    - language: "Francés"
-      proficiency: "40%"
-
+  items: []
 SKILLS:
   enabled: true
-  display_progress_bars: true
-  display_percentage_values: true
+  display_progress_bars: false
+  display_percentage_values: false
   label: "My Skills"
   items:
-    - skill: "Web Design"
-      proficiency: "80%"
-    - skill: "Graphic Design"
-      proficiency: "70%"
-    - skill: "Branding"
-      proficiency: "90%"
-    - skill: "WordPress"
-      proficiency: "50%"
+    - skill: "Programming Languages"
+      [cite_start]proficiency: "C, C++, JavaScript, HTML, CSS, SQL, Python, C# "
+    - skill: "Databases"
+      [cite_start]proficiency: "SQL, MongoDB, Firebase, Supabase "
+    - skill: "Frameworks/Libraries"
+      [cite_start]proficiency: "React, Node.js, Express.js "
+    - skill: "Tools"
+      [cite_start]proficiency: "Git, GitHub, Postman, WordPress "
+    - skill: "Additional Tools"
+      [cite_start]proficiency: "Photoshop, After Effects, Premiere Pro, FL Studio, MATLAB "

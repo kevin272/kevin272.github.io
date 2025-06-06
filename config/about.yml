@@ -8,9 +8,9 @@ DOING:
   enabled: true
   label: "What I'm doing"
   items:
-    - title: "Mobile Apps"
+    - title: "Gamedev"
       icon: "config/assets/icons/mobile.svg"
-      description: "Professional development of applications for iOS and Android."
+      description: "Actively stuying and involving in gamedevelopment."
     - title: "Scripting"
       icon: "config/assets/icons/code.svg"
       description: "Automation and task scripting using Python to enhance efficiency and productivity."
