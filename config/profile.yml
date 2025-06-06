@@ -10,7 +10,7 @@ USER:
   role: "Full Stack Developer"
   name: "Kebin Malla"
   username: "kevin272" # <-- This needs to be the same as your GitHub username
-  avatar: "config/assets/avatars/my-avatar.png"
+  avatar: "config/assets/avatars/my-avatar2.png"
 
 INFO:
   - label: "Email"
