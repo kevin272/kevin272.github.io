@@ -26,7 +26,7 @@ PROJECTS:
     image: "config/assets/projects/Card.png"
     url: null
   - title: "MERN DEMO"
-    category: "WebDevelopment"
+    category: "WebDev"
     image: "config/assets/projects/Demo.png"
     url: null
   - title: "Javascript Simulation Projects"
