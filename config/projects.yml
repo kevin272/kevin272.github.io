@@ -5,14 +5,6 @@ PROJECTS:
     category: "WebDev"
     image: "config/assets/projects/Sajhabiz.png"
     url: "https://github.com/kevin272/MERN"
-  - title: "Javascript Simulation Projects"
-    category: "Misc"
-    image: null
-    url: null
-  - title: "Movie Search App"
-    category: "WebDev"
-    image: null
-    url: null
   - title: "Debug Adventure"
     category: "Gamedev"
     image: "config/assets/projects/Debugadv.png"
@@ -25,10 +17,6 @@ PROJECTS:
     category: "WebDev"
     image: "config/assets/projects/Forms.png"
     url: "https://makethis.great-site.net/?i=2"
-  - title: "Image Recognition Bot"
-    category: "Misc"
-    image: ""
-    url: null
   - title: "Collaborative Code Editor"
     category: "WebDev"
     image: "config/assets/projects/Code.png"
@@ -37,11 +25,23 @@ PROJECTS:
     category: "Misc"
     image: "config/assets/projects/Card.png"
     url: null
+  - title: "MERN DEMO"
+    category: "WebDevelopment"
+    image: "config/assets/projects/Demo.png"
+    url: null
+  - title: "Javascript Simulation Projects"
+    category: "Misc"
+    image: null
+    url: null
+  - title: "Movie Search App"
+    category: "WebDev"
+    image: null
+    url: null
   - title: "Qbasic Pokemon Game"
     category: "Misc"
     image: null
     url: null
-  - title: "MERN DEMO"
-    category: "WebDevelopment"
-    image: "config/assets/projects/Demo.png"
+  - title: "Image Recognition Bot"
+    category: "Misc"
+    image: ""
     url: null
