@@ -11,7 +11,7 @@ PROJECTS:
     url: "https://dvlkvn.itch.io/debugadventure"
   - title: "Nepali-English Language Translator"
     category: "Misc"
-    image: "config/assets/projects/Translator.jpg"
+    image: "config/assets/projects/Translators.jpg"
     url: "https://huggingface.co/spaces/bishaltwr/Ne-En-Trn"
   - title: "Responsive Google Forms"
     category: "WebDev"
