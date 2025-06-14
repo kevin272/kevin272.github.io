@@ -870,23 +870,26 @@ main {
 
 /* in your main CSS file */
 .download-btn {
-  display: inline-block;
-  background-color: #f3f4f6; /* light gray */
-  color: #111827; /* dark text */
-  padding: 0.75rem 1.5rem;
-  font-weight: 600;
-  text-decoration: none;
+  background: var(--eerie-black-2);
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  text-transform: capitalize;
+  width: 100%;
+  padding: 8px 10px;
   border-radius: 8px;
-  border: 1px solid #d1d5db;
-  transition: all 0.2s ease-in-out;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  text-decoration: none;
 }
 
 .download-btn:hover {
-  background-color: #e5e7eb; /* slightly darker gray */
-  transform: translateY(-2px);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+  background: hsl(240, 2%, 20%); /* same as --eerie-black-2 on hover */
 }
+
 
 
 
@@ -1310,7 +1313,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .sidebar, article {
-    width: 520px;
+    width: 600px;
     margin-inline: auto;
     padding: 30px;
   }
