@@ -1,24 +1,24 @@
-<!-- certifications.j2 -->
-<article class="certifications" data-page="certifications">
+<!-- blog.j2 -->
+<article class="blog" data-page="blog">
   <header>
-    <h2 class="h2 article-title">{{certifications.HEADER.label}}</h2>
+    <h2 class="h2 article-title">{{blog.HEADER.label}}</h2>
   </header>
-  <section class="certifications-posts">
-    <ul class="certifications-posts-list">
-      {% for post in certifications.POSTS %}
-      <li class="certifications-post-item">
+  <section class="blog-posts">
+    <ul class="blog-posts-list">
+      {% for post in blog.POSTS %}
+      <li class="blog-post-item">
         <a href="{{post.url}}" target="_blank">
-          <figure class="certifications-banner-box">
+          <figure class="blog-banner-box">
             <img src="{{post.image}}" alt="{{post.title}}" loading="lazy">
           </figure>
-          <div class="certifications-content">
-            <div class="certifications-meta">
-              <p class="certifications-category">{{post.category}}</p>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <p class="blog-category">{{post.category}}</p>
               <span class="dot"></span>
               <time datetime="{{post.published}}">{{post.published | format_date}}</time>
             </div>
-            <h3 class="h3 certifications-item-title">{{post.title}}</h3>
-            <p class="certifications-text">
+            <h3 class="h3 blog-item-title">{{post.title}}</h3>
+            <p class="blog-text">
               {{post.subtitle}}
             </p>
           </div>
