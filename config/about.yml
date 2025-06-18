@@ -10,7 +10,7 @@ DOING:
   items:
     - title: "Gamedev"
       icon: "config/assets/icons/mobile.svg"
-      description: "Actively stuying and involving in gamedevelopment."
+      description: "Actively studying and involving in Gamedevelopment."
     - title: "Scripting"
       icon: "config/assets/icons/code.svg"
       description: "Automation and task scripting using Python to enhance efficiency and productivity."
@@ -19,7 +19,7 @@ DOING:
       description: "Intuitive and visually appealing user interfaces and user experiences."
     - title: "Web Development"
       icon: "config/assets/icons/laptop-code.svg"
-      description: "High-quality development of sites at the professional level."
+      description: "Involved in full-stack Web App Development"
 
 SKILLS:
   enabled: true

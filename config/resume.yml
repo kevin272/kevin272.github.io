@@ -17,9 +17,15 @@ EXPERIENCE:
   enabled: true
   label: "Projects"
   items:
-    - period: "2025 - present"
+    - period: "2025"
       position: "SajhaBiz"
       description: "Full stack project that allows users to donate to campaigns opened for local businesses. Features JWT-based authentication and Google Maps API integration. Includes an admin panel for campaign and user management that utilizes CRUD operations, donation tracking, user dashboards, and campaign and user CRUD."
+    - period: "2025"
+      position: "ChatR"
+      description: "Fullstack Chat & Video Calling App with Typing Indicators & Reactions with 1-on-1 and Group Video Calls with Screen Sharing & Recording"
+    - period: "2025"
+      position: "Noteify"
+      description: "A Full-Stack Note taking app with minimal abstract design"
     - period: "2024 - present"
       position: "Javascript Simulation Projects"
       description: "Simulation coding challenges from TheCoding Train, including Sand Simulation, Live Video feed to ASCII Art, 7Segment Display, and 2D Raycasting."
@@ -36,17 +42,12 @@ EXPERIENCE:
       position: "Responsive Google Forms"
       description: "A simple HTML form styled with CSS for user data collection, processed server-side with PHP. Includes client-side validation and interactivity via JavaScript, and stores data in a MySQL database."
     - period: "2023"
-      position: "Image Recognition Bot"
-      description: "Simple Bot that utilizes image recognition to perform minor tasks like playing pianotiles & simulating clicks on prop's appearance."
-    - period: "2023"
       position: "Collaborative Code Editor"
       description: "Real-time collaborative code editor that utilizes Logoot algorithm. Features syntax highlighting and realtime chat."
     - period: "2022"
       position: "Credit Card validator"
       description: "A straightforward credit card validation application that employs Luhn's algorithm."
-    - period: "2016"
-      position: "Qbasic Pokemon Game"
-      description: "Prototype turn based action game generated entirely in Qbasic."
+    -
 LANGUAGES:
   enabled: false
   display_progress_bars: true

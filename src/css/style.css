@@ -884,6 +884,8 @@ main {
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
   text-decoration: none;
+  border-color: chocolate;
+  border-radius: 2px;
 }
 
 .download-btn:hover {
