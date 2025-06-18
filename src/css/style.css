@@ -870,26 +870,29 @@ main {
 
 /* in your main CSS file */
 .download-btn {
-  background: var(--eerie-black-2);
-  color: var(--light-gray);
+  background: linear-gradient(to right, #1f1f1f, #2a2a2a);
+  color: #f1f1f1;
   font-size: var(--fs-6);
-  font-weight: var(--fw-300);
-  text-transform: capitalize;
+  font-weight: 500;
+  text-transform: uppercase;
   width: 100%;
-  padding: 8px 10px;
-  border-radius: 8px;
-  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  border: 2px solid #ff7f50; /* Stylish orange border */
   text-align: center;
   display: inline-block;
   cursor: pointer;
-  transition: background-color 0.2s ease-in-out;
+  transition: all 0.3s ease-in-out;
   text-decoration: none;
-  border-color: chocolate;
-  border-radius: 2px;
+  box-shadow: 0 0 0 transparent;
 }
 
 .download-btn:hover {
-  background: hsl(240, 2%, 20%); /* same as --eerie-black-2 on hover */
+  background: linear-gradient(to right, #2a2a2a, #1f1f1f);
+  color: #ffffff;
+  border-color: #ffa366;
+  box-shadow: 0 0 12px #ff7f50;
+  transform: translateY(-2px);
 }
 
 
