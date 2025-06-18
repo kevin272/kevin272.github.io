@@ -1,10 +1,6 @@
 HEADER:
   label: "Portfolio"
 PROJECTS:
-  - title: "SajhaBiz"
-    category: "WebDev"
-    image: "config/assets/projects/Sajhabiz.png"
-    url: "https://github.com/kevin272/MERN"
   - title: "ChatR"
     category: "WebDev"
     image: "config/assets/projects/ChatR.png"
@@ -29,10 +25,6 @@ PROJECTS:
     category: "WebDev"
     image: "config/assets/projects/Code.png"
     url: null
-  - title: "Credit Card validator"
-    category: "Misc"
-    image: "config/assets/projects/Card.png"
-    url: null
   - title: "MERN DEMO"
     category: "WebDev"
     image: "config/assets/projects/merndemo.png"
@@ -45,3 +37,11 @@ PROJECTS:
     category: "Misc"
     image: null
     url: null
+  - title: "Credit Card validator"
+    category: "Misc"
+    image: "config/assets/projects/Card.png"
+    url: null
+  - title: "SajhaBiz"
+    category: "WebDev"
+    image: "config/assets/projects/Sajhabiz.png"
+    url: "https://github.com/kevin272/MERN"
