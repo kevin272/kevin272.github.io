@@ -16,6 +16,13 @@ POSTS:
     image: "config/assets/posts/Data.jpg"
     url: "https://drive.google.com/file/d/1oMpAFOCZBtOgHSLLIYaSbusaE8MXeyrB/view?usp=sharing"
 
+  - title: "Postman API Fundamentals Student Expert"
+    category: "Training"
+    subtitle: "Postman API Fundamentals Training"
+    published: "2025-06-19"
+    image: "config/assets/posts/postman.jpg"
+    url: "https://api.badgr.io/public/assertions/2E7UuyLMSSO1taz8t6lw8w?identity__email=mallakebin%40gmail.com"
+
   - title: "Build a Movie Search App"
     category: "Crash Course"
     subtitle: "Course Completed in Scrimba"
