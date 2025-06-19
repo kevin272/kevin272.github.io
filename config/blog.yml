@@ -20,7 +20,7 @@ POSTS:
     category: "Training"
     subtitle: "Postman API Fundamentals Training"
     published: "2025-06-19"
-    image: "config/assets/posts/postman.jpg"
+    image: "config/assets/posts/postman.png"
     url: "https://api.badgr.io/public/assertions/2E7UuyLMSSO1taz8t6lw8w?identity__email=mallakebin%40gmail.com"
 
   - title: "Build a Movie Search App"
