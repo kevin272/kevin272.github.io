@@ -62,8 +62,6 @@ TECHNOLOGIES:
       icon: "config/assets/icons/dart.svg"
     - title: "HTML"
       icon: "config/assets/icons/html.svg"
-    - title: "AI"
-      icon: "config/assets/icons/ai.svg"
     - title: "Jupyter"
       icon: "config/assets/icons/jupyter.svg"
     - title: "Linux"
